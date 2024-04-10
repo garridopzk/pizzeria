@@ -39,13 +39,13 @@
         android:layout_height="120dp"
         android:layout_marginStart="100dp"
         android:layout_marginTop="300dp"
-        android:background="@drawable/delvalle"/>
+        android:background="@drawable/Sprite"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="210dp"
         android:layout_marginTop="320dp"
-        android:text=" Del valle $18"/>
+        android:text="Sprite $18"/>
 
     <EditText
         android:layout_width="wrap_content"
