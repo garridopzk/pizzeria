@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="-9dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/menu2"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingContraints"/>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="50dp"
+        android:background="@drawable/pizzadequeso" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginStart="50dp"
+        android:background="@drawable/pizzadepiña"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="510dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/pizzachampiñiones"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="290dp"
+        android:text="pizza de queso $150"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="ingresar"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="320dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:layout_marginStart="250dp"
+        android:text="Pizza Hawallana $120"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="ingresar"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="450dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="530dp"
+        android:text="Pizza de champiñones $190"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="ingresar"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="560dp"/>
+
+    <Button
+        android:id="@+id/refrescos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="650dp"
+        android:text="Refrescos"
+        android:textColor="#FF6F51" />
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="650dp"
+        android:text="Menu"
+        android:textColor="#FF6F51" />
+
+</RelativeLayout>
