@@ -23,7 +23,7 @@
         android:textColor="@color/white"/>
     <EditText
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:hint="ingresar"
         android:layout_marginStart="190dp"
         android:layout_marginTop="120dp"
@@ -38,7 +38,7 @@
 
     <EditText
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginStart="200dp"
         android:layout_marginTop="230dp"
         android:text="ingresar"
@@ -52,16 +52,10 @@
         android:textColor="@color/white"/>
     <EditText
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginTop="420dp"
         android:layout_marginStart="170dp"
         android:text="ingresar"
         android:textColor="@color/white"/>
-
-
-
-
-
-
 
 </RelativeLayout>

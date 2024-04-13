@@ -32,13 +32,13 @@
         android:layout_height="120dp"
         android:layout_marginTop="380dp"
         android:layout_marginStart="50dp"
-        android:background="@drawable/pizzadepiña"/>
+        android:background="@drawable/pisa"/>
     <ImageView
         android:layout_width="200dp"
         android:layout_height="120dp"
         android:layout_marginTop="510dp"
         android:layout_marginStart="20dp"
-        android:background="@drawable/pizzachampiñiones"/>
+        android:background="@drawable/pica"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -47,12 +47,12 @@
         android:text="pizza de queso $150"/>
 
     <EditText
+        android:id="@+id/ingresar1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:hint="ingresar"
         android:layout_marginStart="270dp"
         android:layout_marginTop="320dp"/>
-
 
     <TextView
         android:layout_width="wrap_content"
@@ -62,9 +62,10 @@
         android:text="Pizza Hawallana $120"/>
 
     <EditText
+        android:id="@+id/ingresar2"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="ingresar"
+        android:layout_height="48dp"
+        android:hint="introducirtexto"
         android:layout_marginStart="270dp"
         android:layout_marginTop="450dp"/>
 
@@ -73,13 +74,15 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="230dp"
         android:layout_marginTop="530dp"
-        android:text="Pizza de champiñones $190"/>
+        android:text="Pizza de peperoni $190"/>
+
     <EditText
+        android:id="@+id/ingresar3"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="ingresar"
-        android:layout_marginStart="270dp"
-        android:layout_marginTop="560dp"/>
+        android:layout_height="48dp"
+        android:hint="introducir"
+        android:layout_marginTop="570dp"
+        android:layout_marginStart="280dp"/>
 
     <Button
         android:id="@+id/refrescos"
